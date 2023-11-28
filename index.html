@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./autres/css/indx.css">
+</head>
+<body>
+    <aside><center>BIENVENU DANS NOTRE BIBLIOTHEQUE</center></aside>
+    <span style="font-weight: bold; font-size: 25px; color: red; padding: 5px;"><center>!!! Identifiez-vous ou s'inscrire !!!</center></span>
+    <div class="rt">U.L.T</div>
+    <form action="./traitement.php" method="post">
+        <table>
+            <tr>
+                <td><label for="">Email</label></td><td><input type="email" name="mail" id="email" placeholder="john@gmail.com..." required></td>
+            </tr>
+            <tr>
+                <td><label for="">Password</label></td><td><input type="password" name="password" id="password" placeholder="#jo12..." required></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><button name="bconnect" type="submit" id="button">Se Connecter</button></td>
+            </tr>
+            <tr>
+                <td><main>Vous n'etes pas inscrit?</main></td><td><a class="inscrit" href="./autres/formulaire.html" id="signup">S'inscrire</a></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right"><span><a style="color: red;" href="" id="forget">Mot de passe oublié??</a></span></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
